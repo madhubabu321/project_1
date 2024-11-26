@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profiles </title>
+</head>
+<body>
+    <fieldset>
+        <legend>Update user profiles </legend>
+        <form>
+            <label>Click here to update your name: </label>
+            <input type="text" id="update-name" placeholder="">
+            <div id="update-name-2"></div>
+            <br>
+            <br>
+            <label>Click here to update your profile picture: </label>
+            <input type="file" id="update-pic">
+            <br>
+            <br>
+            <label>Click here to update your Bio: </label>
+            <input type="textarea" id="update-bio">
+            <div id="update-bio-2"></div>
+            <br>
+            <br>
+ <button onclick="updateDetails()">Submit</button>
+
+        </form>
+    </fieldset>
+    <script src="user_profiles.js"></script>
+</body>
+</html>
